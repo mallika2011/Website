@@ -153,10 +153,12 @@ nav{
 
 .about-me
 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom:5% ;
   position: relative;
 }
 
@@ -181,8 +183,8 @@ nav{
 
 .projects
 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding-left: 15%;
   padding-right: 15%;
   position: relative;
@@ -220,11 +222,13 @@ nav{
 
 .my-passion
 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding-left: 15%;
   padding-right: 15%;
   position: relative;
+  padding-top: 5%;
+  padding-bottom:5% ;
 }
 
 .my-passion-heading
@@ -302,7 +306,8 @@ nav{
 .about-body{
   /* background-color: #ebd5d5; */
   /* background-color: #00030C; */
-  background-color: #116466;
+  /* background-color: #116466; */
+  background-color: #2C3531;
 }
 
 .profile{
@@ -411,9 +416,11 @@ nav{
 
 .feedback-content{
   /* height: 100%; */
-  margin-top: 10%;
+  padding-top: 7%;
   /* height: 30%; */
-  margin-bottom: 10%;
+  padding-bottom: 7%;
+  margin-bottom: 5%;
+  background-color: #ffcb9a;
 }
 
 .feedback-content h1{
