@@ -22,63 +22,85 @@
   </head>
   <body>
 
-      <!-- Navigation bar -->
-    <nav class="nav navbar-expand-lg navbar-dark bg-dark" style="z-index: 2;" id="fix">
+   <!-- Navigation bar -->
+   <nav class="nav navbar-expand-lg navbar-dark bg-dark" style="z-index: 2;" id="fix">
 
-     <a class="navbar-brand" href="index.html">Home</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./passion.html">My Passion</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./feedback.html">Feedback</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+             <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                   <a class="nav-link" href="./about.html">About Me</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="./projects.html">Projects</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="./passion.html">My Passion</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="./feedback.html">Feedback</a>
+               </li>
+           </ul>
+         </div>
+       </nav>
 
   <!-- *****************************TOP CONTAINER  ***********************************-->
 
-    <div class="top-container container-fluid">
+    <div class="projects-top-container container-fluid">
       <div class="text-center mallika container-fluid">
-        <h1 class="name container-fluid">MALLIKA SUBRAMANIAN</h1>
-        <br>
-        <!-- <div class="mallikatext container-fluid"> -->
-        <h3>Under-Graduate student at IIIT-H</h3>
-        <h3>Typography, Music, Food</h3>
-        <h3>Dance <3</h3>
-        <!-- </div> -->
+        <h3 class="name container-fluid" style="color: #d1e8e2;">PROJECTS DONE</h3>
       </div>
     </div>
 
 <div class="about-me container-fluid" id="index-about">
   <h2 class="about-me-heading">LINUX C-Shell</h2>
   <p class="about-me-content">
-        
-</p>
+    <ul>
+        <li>A fully functional Linux shell built in C</li>
+        <li>Supports redirection, piping, environment variables, background and foreground process execution etc</li>
+    </ul>
+  </p>
+  <br><br>
+  <h2 class="about-me-heading">IOT-Controlled wireless motor</h2>
+  <p class="about-me-content">
+    <ul>
+        <li>An Embedded Systems Workshop project</li>
+        <li>The project involves a motor that is controlled either based on proximity sensors or remotely controlled via Wifi </li>
+        <li> Uses Arduino to control the speed of the motor via PWM. For remote control of the motor, the ESP32 board is made the server and a web page (UI) is rendered at the client side</li>
+        <li>Protocols used for communication and data storage include OneM2M and Thingspeak</li>
+    </ul>
+  </p>
+  <br><br>
+  <h2 class="about-me-heading">Resort Chain DBMS</h2>
+  <p class="about-me-content">
+    <ul>
+        <li>An emulation of a Database Management System for a resort chain</li>
+        <li>The database is created using SQL</li>
+        <li>Functionality and operations on the database are done using Python and PyMySQL</li>
+    </ul>
+  </p>
+  <br><br>
+  <h2 class="about-me-heading">Personal Website</h2>
+  <p class="about-me-content">
+    <ul>
+        <li>Built using HTML5, CSS, Javascript and JQuery</li>
+        <li>Uses the Bootstrap framework</li>
+    </ul>
+  </p>
+  <br><br>
+  <h2 class="about-me-heading">VLabs experiment</h2>
+  <p class="about-me-content">
+    <ul>
+        <li>Recreating an experiment for the Computer Organization Lab in VLabs</li>
+        <li>Uses the Flask framework</li>
+        <li>Link : <a href="https://github.com/mallika2011/ISS_Assignment_4">https://github.com/mallika2011/ISS_Assignment_4</a></li>
+    </ul>
+  </p>
   
 </div>
-
-<div class="my-passion container-fluid" id="index-my-passion">
-    <h2 class="my-passion-heading">Passion</h2>
-    <p class="my-passion-content">
-        Everyone has that one talent their proud of. Something they love doing.
-        Been inspired for the past many years,
-        here's mine!  
-    </p>
-    <a href="./about.html" class="my-passion-button butn">Know More</a>
-  </div>
-
 
     <!-- ************************** FOOTER ************************************************  -->
     <div class="footer2 container-fluid">
