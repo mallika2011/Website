@@ -6,6 +6,27 @@ html,body{
   position: relative;
 }
 
+.butn {
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Patrick Hand', cursive;
+
+  color: #ffffff;
+  font-size: 20px;
+  background: #116466;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  /* bottom: 0; */
+}
+
+.butn:hover {
+  background: #d1e8e2;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -36,10 +57,13 @@ nav{
 
 
 .top-container{
-   background-image: url("../img/city.jpg");
-   background-size: cover;
+   background-image: url("../img/home4.jpg");
+    background-size: cover;
    background-position: center;
    height: 95%;
+   /* opacity: 50%; */
+   /* z-index: 1; */
+    /* background-color: #116466;   */
 }
 
 .mallika{
@@ -47,6 +71,7 @@ nav{
   font-family: 'Acme', sans-serif;
   position: relative;
   top: 10%;
+  z-index: 1;
 
 }
 
@@ -117,28 +142,105 @@ nav{
 
 }
 
+.about-me
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  position: relative;
+}
 
+.about-me-heading
+{
+  font-family: 'Acme', sans-serif;
+  /* color: #116466; */
+  color: #2C3531;
+}
+.about-me-content
+{
+  font-family: 'Arima Madurai', cursive;
+  width: 50%;
+}
 
-.butn {
-  -webkit-border-radius: 18;
-  -moz-border-radius: 18;
-  border-radius: 18px;
-  font-family: 'Patrick Hand', cursive;
-
-  color: #ffffff;
-  font-size: 20px;
-  background: #984a59;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.about-me-button
+{
   position: absolute;
-  bottom: 0;
+  left: 70%;
+  top: 50%;
 }
 
-.butn:hover {
-  background: #60424c;
-  color: #ffffff;
-  text-decoration: none;
+.projects
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  position: relative;
 }
+
+.projects-sub
+{
+  text-align: right;
+  background-color: #116466;
+  padding: 5%;
+}
+
+.projects-heading
+{
+  font-family: 'Acme', sans-serif;
+  /* color: #116466; */
+  color: #D1E8E2;
+}
+.projects-content
+{
+  font-family: 'Arima Madurai', cursive;
+  width: 50%;
+  margin-left:50% ;
+  color: #D1E8E2;
+}
+
+.projects-button
+{
+  position: absolute;
+  color:#2C3531 ;
+  background: #ffcb9a;
+  right: 70%;
+  top: 50%;
+}
+
+.my-passion
+{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  position: relative;
+}
+
+.my-passion-heading
+{
+  font-family: 'Acme', sans-serif;
+  /* color: #116466; */
+  color: #2C3531;
+}
+.my-passion-content
+{
+  font-family: 'Arima Madurai', cursive;
+  width: 50%;
+}
+
+.my-passion-button
+{
+  position: absolute;
+  left: 70%;
+  top: 50%;
+}
+
+
+
+
+
 
 
 .footer2{
@@ -197,7 +299,7 @@ nav{
 .profile{
   margin: 5% 15%;
   width: 100%;
-  height: 100%:
+  height: 100%;
 
 }
 
@@ -293,7 +395,7 @@ nav{
 
 /* ************************Feedback ************************************** */
 .contact-body{
-  background-color: #bbded6;
+  background-color: #d1e8e2;
   height: 100%;
   width: 100%;
 }
@@ -440,7 +542,7 @@ nav{
 	height:35px;
 }
 .form-style-5 .number {
-	background: #1abc9c;
+	background: #116466;
 	color: #fff;
 	height: 30px;
 	width: 30px;
@@ -461,7 +563,7 @@ nav{
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
 	margin: 0 auto;
-	background: #1abc9c;
+	background: #116466;
 	font-size: 18px;
 	text-align: center;
 	font-style: normal;
@@ -473,12 +575,12 @@ nav{
 .form-style-5 input[type="submit"]:hover,
 .form-style-5 input[type="button"]:hover
 {
-	background: #109177;
+	background: #16a085;
 }
 
 
 th{
-    background: #109177 ;
+    background: #116466 ;
     border: 2px solid black;
     padding: 10px;
 }
