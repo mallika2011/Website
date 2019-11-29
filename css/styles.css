@@ -1,0 +1,532 @@
+html,body{
+  margin: 0;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.add {
+    color: white;
+}
+
+.enlarge{
+  width: 100%;
+}
+
+
+nav{
+  font-family: 'Acme', sans-serif;
+  padding: .5%;
+}
+.navbar-brand{
+  margin-left: 2%;
+}
+
+
+#fix{
+  overflow: hidden;
+}
+
+
+.top-container{
+   background-image: url("../img/city.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 95%;
+}
+
+.mallika{
+  width: 100%;
+  font-family: 'Acme', sans-serif;
+  position: relative;
+  top: 10%;
+
+}
+
+.name{
+  width: 100%;
+  font-size:7vw;
+  padding-top: 2%;
+}
+
+.content{
+  font-size: 70%;
+}
+
+
+.header{
+  font-family: 'Acme', sans-serif;
+  font-size: 50px;
+}
+
+.middle{
+  background-color: #ffe0e0;
+  padding-bottom:5%;
+
+}
+
+.middle-container{
+  margin: 5%;
+  border: 5px;
+}
+
+.middle-text{
+  /* font-family: 'Markazi Text', serif; */
+  font-family: 'Arima Madurai', cursive;
+
+  font-size: 30px;
+  margin: 5%;
+  left:15%;
+
+}
+
+.middle-container-2{
+  margin: 5%;
+  border: 5px;
+}
+
+.middle-container-2-text{
+  /* font-family: 'Markazi Text', serif; */
+  font-family: 'Arima Madurai', cursive;
+
+  font-size: 30px;
+  margin: 5%;
+  left:15%;
+}
+
+.middle-container-3{
+  margin: 5%;
+  border: 5px;
+
+}
+
+.middle-container-3-text{
+  /* font-family: 'Markazi Text', serif; */
+  font-family: 'Arima Madurai', cursive;
+
+  margin: 5%;
+  left:15%;
+  font-size: 30px;
+
+}
+
+
+
+.butn {
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Patrick Hand', cursive;
+
+  color: #ffffff;
+  font-size: 20px;
+  background: #984a59;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.butn:hover {
+  background: #60424c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.footer2{
+  background-color: #2c2828;
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Quicksand', serif;
+  padding:2%;
+  height: auto;
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+  bottom: 0;
+  border: 10%;
+}
+
+.footer2 h5{
+  color: white;
+  /* margin: 5%; */
+}
+
+.contact-links{
+  padding: 0;
+}
+
+.footer-img{
+  /*   position: relative; */
+  align-content: center;
+  width: 3%;
+  display: inline;
+  /* margin: 10%; */
+  margin: 2%;
+}
+
+.footer-content{
+  position: relative;
+  top:20%;
+
+}
+
+.footer-img:hover{
+  width:3.5%;
+}
+
+.like{
+  display: inline;
+}
+
+
+/*****************************ABOUT ********************************/
+.about-body{
+  /* background-color: #ebd5d5; */
+  background-color: #00030C;
+
+}
+
+.profile{
+  margin: 5% 15%;
+  width: 100%;
+  height: 100%:
+
+}
+
+.profile-img{
+  float: left;
+  width: 40%;
+  border-radius: 2%;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top:10%;
+  margin-bottom: 5%;
+
+
+}
+
+.about-content{
+
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Arima Madurai', cursive; */
+  z-index: -1;
+  color: white;
+  font-size: 120%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+  padding-top: 10%;
+
+}
+
+
+/*****************************PASSION *********************************/
+.bg{
+  position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url("https://www.zastavki.com/pictures/originals/2014/World___India____Indian_landscape_062772_.jpg");
+   background-size: contain ;
+   opacity: 0.7;
+
+   width: 100%;
+   height: 100%;
+   padding: 10%;
+}
+.passion-body{
+    position: relative;
+    z-index: 1;
+}
+.passion-content{
+  width: 40%;
+  margin-top: 3%;
+  color:black;
+  font-size: 1.75em;
+}
+
+.passion-content p{
+
+  /* font-family: 'Roboto Slab', serif; */
+  font-family: 'Arima Madurai', cursive;
+
+}
+
+.image-carousel{
+  /* background-color: pink; */
+  height: 70%;
+  width: auto;
+  margin-bottom:5%;
+  margin-left:5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  padding-bottom:0;
+
+}
+
+.image-carousel h3{
+  margin-top: 3%;
+  color:black;
+  font-family: 'Righteous', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+}
+
+.mySlides{
+    /* height: 120%; */
+    height: 70%;
+    width: auto;
+    max-width: 90%;
+
+}
+
+/* ************************Feedback ************************************** */
+.contact-body{
+  background-color: #bbded6;
+  height: 100%;
+  width: 100%;
+}
+
+.feedback-content{
+  /* height: 100%; */
+  margin-top: 10%;
+  /* height: 30%; */
+  margin-bottom: 10%;
+}
+
+.feedback-content h1{
+  font-size: 3vw;
+}
+
+.feedback-content h3{
+  font-family: 'Special Elite', cursive;
+  margin-bottom: 5%;
+  font-size: 2.5vw;
+}
+
+.feedback-table{
+
+  margin: 10%;
+  /* margin-left: 15%; */
+  width: 50%;
+  height: auto;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+
+}
+
+.feedback-table td{
+  /* border-style: solid; */
+  padding: 2%;
+  margin: 2%;
+
+}
+
+#tableheading{
+  font-family: 'Special Elite', cursive;
+
+}
+
+#prof{
+  font-family: 'Special Elite', cursive;
+}
+
+#name{
+  font-family: 'Special Elite', cursive;
+}
+
+#skill{
+  font-family: 'Special Elite', cursive;
+}
+
+
+
+
+.likes{
+  /* padding-top: 5%; */
+  height: 50%;
+  /* font-size: 3vw; */
+}
+.like-img{
+  align-content: center;
+  text-align: center;
+  font-size:48px;
+}
+
+.likescount{
+  font-size: 2vw;
+  font-family: 'Acme', sans-serif;
+  color: black;
+
+}
+
+.form-style-5{
+  top: 10%;
+	max-width: 70%;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: 'Boogaloo', cursive;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #109177;
+}
+
+
+th{
+    background: #109177 ;
+    border: 2px solid black;
+    padding: 10px;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Arima Madurai', cursive;
+}
+
+
+
+
+
+/********************************gallery ********************************/
+.gallery-body{
+
+  background-image: url("https://wallpapermemory.com/uploads/654/gallery-background-hd-1920x1200-193330.jpg");
+  background-size: cover;
+
+}
+
+.galleryy{
+  padding: 5%;
+}
+
+.gal{
+  width: 20%;
+  margin: 2%;
+  border-radius: 4%;
+}
+
+.gal:hover{
+  opacity: 0.7;
+
+}
+
+.profile{
+  display: inline;
+  margin-left: 2%;
+  margin-right: 0;
+  width: 25%;
+}
+
+
+.galleryhead
+{
+  margin-top: 5%;
+  color: black;
+  font-family: 'Merienda One', cursive;
+}

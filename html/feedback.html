@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mallika's Site</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Acme|Bangers|Boogaloo|Indie+Flower|Markazi+Text|Quicksand|Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Kaushan+Script|Quattrocento|Patrick+Hand|Roboto+Slab" rel="stylesheet">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body onload="check()" class="contact-body">
+
+    <!-- Navigation bar -->
+    <nav class="nav navbar-expand-lg navbar-dark bg-dark" id="fix">
+
+     <a class="navbar-brand" href="index.html">Home</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./passion.html">My Passion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Feedback</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <!--  ****************************************FORMMMMMM ******************************************************* -->
+
+    <div class="feedback-content container-fluid text-center">
+
+      <h1 class="header">Send in your thoughts!</h1>
+      <h3 style="margin-top:2%;">
+        Here's what my collegues have to say about me.<br>
+        Fill in this form and I would love to hear from you too! <br>
+      </h3>
+    </div>
+
+
+
+
+    <div class="form-style-5">
+
+      <fieldset>
+      <legend><span class="number">#</span>Awaiting constructive criticism</legend>
+
+      <input id="name" value="" type="text" name="field1" placeholder="Your Name *">
+
+      <label for="skill">Skill:</label>
+
+      <select id="skill" name="field2">
+      <option value="Dance">Dance</option>
+      <option value="Music">Music</option>
+      <option value="Typography">Typography</option>
+      <option value="Swimming">Swimming</option>
+      <option value="Gardening">Gardening</option>
+      </select>
+
+      <label for="pro">Proficiency:</label>
+
+      <select id="pro" name="field3">
+      <option value="Proficient">Proficient</option>
+      <option value="Intermediate">Intermediate</option>
+      <option value="Learning">Learning</option>
+      </select>
+      </fieldset>
+
+    <input onclick="onSubmit()" type="submit" value="Swoosh!" />
+  </div>
+
+
+  <!-- <div style="overflow-x:auto;"> -->
+  <div class="table-responsive-sm">
+    <table id="formtable" class="feedback-table text-center">
+      <thead>
+        <tr>
+          <td id="tableheading" colspan="3">FEEDBACK TABLE</td>
+        </tr>
+        <tr>
+          <th id="name">NAME</th>
+          <th id="skill">SKILL</th>
+          <th id="prof">PROFICIENCY</th>
+        </tr>
+      </thead>
+    <tbody id="data-body">
+    </tbody>
+  </table>
+  </div>
+
+
+
+
+
+
+<!-- **************************************likes ****************************************************  -->
+
+    <div class="likes">
+      <h4 class="header text-center" style="color:black;">Go ahead and LIKE this page!</h4>
+
+
+      <div style="text-align:center">
+      <br>  <i class="fa fa-heart-o like-img" id="clickButton" onclick="../js/change.js"></i> <br> <br>
+        <p class="likescount"> LIKES :) <a id="clicks">0</a></p>
+        <script type="text/javascript" src="../js/like.js">  </script>
+        <script type="text/javascript" src="../js/change.js">
+
+        </script>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ************************** FOOTER ************************************************  -->
+    <div class="footer2 container-fluid">
+      <div class="footer-content">
+
+      <h5>Get in touch!</h5>
+
+      <div class="contact-links">
+      <a href="https://www.facebook.com/mallika.subramanian.58">
+        <img class="footer-img"src="https://www.fontfabric.com/wp-content/themes/ff-wp-templates/assets/images/icons/socials/fb.svg">
+      </a>
+      <a href="https://www.instagram.com/accounts/login/?hl=en">
+        <img class="footer-img" src="https://www.fontfabric.com/wp-content/themes/ff-wp-templates/assets/images/icons/socials/insta.svg">
+      </a>
+      <a href="https://twitter.com/">
+        <img class="footer-img"src="https://www.fontfabric.com/wp-content/themes/ff-wp-templates/assets/images/icons/socials/tw.svg">
+      </a>
+      </div>
+    <h5>© 2019 Mallika Subramanian</h5>
+
+    </div>
+    </div>
+
+    <!--  **************************JAVASCRIPT ********************************************-->
+    <!-- <script type="text/javascript" src="../js/sript.js"></script> -->
+    <!-- <script type="text/javascript" src="../js/sript.js"></script> -->
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/carousel.js"></script>
+    <script type="text/javascript" src="../js/like.js"></script>
+    <script type="text/javascript" src="../js/change.js"></script>
+    <script type="text/javascript" src="../js/fform.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
