@@ -420,7 +420,9 @@ nav{
   /* height: 30%; */
   padding-bottom: 7%;
   margin-bottom: 5%;
-  background-color: #ffcb9a;
+  /* background-color: #ffcb9a; */
+  background-color: #116466;
+  color: #f4f7f8;
 }
 
 .feedback-content h1{
